@@ -1,4 +1,4 @@
-#Step 1:  get second column of listening service ports and save to text file<br>
+#Step 1:  get second column of /etc/services to save listening service ports to text file<br>
 cat /etc/services | awk '{print $2}'> ports.txt  <br> <br>
 
 #Step 2: run get_ports.py to clean list of ports <br>
